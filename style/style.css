@@ -9,6 +9,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
 }
 body {
@@ -70,15 +71,18 @@ h1 {
  next-section-title
 ======= */
 .tripods {
-display: flex;
+    display: flex;
+    margin-bottom: 20px;
 
 }
 
 .tripod {
     
-    padding: 15px;
+    padding: 30px;
     box-shadow: 5px 5px 35px grey;
     border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 
     
 }
@@ -89,7 +93,10 @@ display: flex;
 .container {
     Width :329px;
 Height :476px;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
     padding: 5px;
 
 }
