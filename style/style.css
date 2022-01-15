@@ -5,6 +5,12 @@
 /*==========
  Utilities
 ========= */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -58,4 +64,60 @@ h1 {
 }
 .image .img:hover{
     transform: rotate(45deg);
+}
+
+/*========
+ next-section-title
+======= */
+.tripods {
+display: flex;
+
+}
+
+.tripod {
+    
+    padding: 15px;
+    box-shadow: 5px 5px 35px grey;
+    border-radius: 5px;
+
+    
+}
+.tripod-banner {
+    
+}
+
+.container {
+    Width :329px;
+Height :476px;
+
+    padding: 5px;
+
+}
+.price {
+    font-size: 28px;
+   
+}
+h6 {
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.info {
+    font-size: 16px;
+}
+.ratings {
+    display: flex;
+    width: 16px;
+height: 16px;
+}
+.tripod.tripod-banner img {
+    width: 300px;
+    height: 256px;
+}
+.fa-star.filled {
+    color: #FB8200;
+    font-size:16px;
+}
+.fa-star.empty {
+    color: #AEAEAE;
+    font-size: 16px;
 }
