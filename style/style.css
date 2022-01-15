@@ -128,3 +128,18 @@ height: 16px;
     color: #AEAEAE;
     font-size: 16px;
 }
+.buttons {
+    
+    display: flex;
+    justify-content: space-around;
+    
+   
+    
+
+
+}
+.buttons-style {
+    display: flex;
+    justify-content: flex-end;
+   
+}
